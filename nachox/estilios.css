@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: roboto;
+}
+:root{
+    --principal: #b1f03c;
+    --texto: color: #474a41;
+    --secundario: #879e5c
+}
