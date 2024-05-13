@@ -9,6 +9,15 @@ body{
     background-color: var(--principal);
     text-align: center;
 }
+#depredadores{
+    background-color: var(--secundario);
+}
+#presas{
+    background-color: var(--secundario);
+}
+#domesticos{
+    background-color: var(--secundario);
+}
 .list{
     display: flex;
     flex-direction: row;
