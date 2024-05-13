@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #f2f2f2;
+    background-color: #f0f2f2;
+}
+.head{
+    background-image: url(fotos/headfondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;  */
+}
+#menu{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-content: flex-start;
+    margin-left: 15px;
+}
+a{
+   color: #f2f2f2;
+   text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.titulo{
+    margin: auto;
+    margin-left: 5%;
+}
+.cat{
+    height: 100vh;
+    background-color: #4F6343;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* alin */
+    flex-direction: column;
+}
+.cajas{
+    display: flex;
+    justify-content: space-evenly;
+}
+.categoria{
+    width: 18em;
+    height: 65vh;
+    background-color: #f2f2f2;
+    color: #4F6343;
+    margin: 15px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.tit-info{
+    margin: 5px;
+}
+.animales{
+    color: #4F6343;
+}
+@media screen and (max-width: 480px){
+    body{
+        color: #4F6343;
+    }
+}
