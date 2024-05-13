@@ -3,11 +3,61 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
+img{
+    margin-bottom: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px 4px rgb(75, 209, 97);
+}
+.header h1{
+    padding: 100px;
+    font-size: 100px;
+    height: 220px;
+}
+
+.header p{
+    text-align: center;
+    font-size: 40px;
+}
+.menu{
+    width: 900px;
+    margin: 0 auto;
+    background-color: var(--secundario);
+
+}
+header{
+    width: 100%;
+    height: 20px;
+    clear: both;
+    content: '';
+    display: table;
+    background-color: rgb(64, 241, 64);
+}
+nav{
+    float: right;
+
+}
+nav ul li{
+    list-style: none;
+    margin-left: 75px;
+    padding: 15px 0;
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--texto);
+    font-weight: bold;
+}
 body{
     font-family: roboto;
     color: var(--texto);
     background-color: var(--principal);
     text-align: center;
+}
+#principal{
+    float: right;
 }
 #depredadores{
     background-color: var(--secundario);
