@@ -3,6 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+#menu{
+    background-color: var(--secundario);
+
+}
+#menu ul li{
+    list-style: none;
+    margin-left: 75px;
+    padding: 25px 0;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: var(--texto);
+    font-weight: none;
+}
 body{
     font-family: roboto;
     color: var(--texto);
