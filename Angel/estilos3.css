@@ -167,6 +167,10 @@ h1{
         font-size: 25px;
     }
     h1{
+<<<<<<< HEAD:Angel/estilos.css
+=======
+        margin-bottom: 150px;
+>>>>>>> Angel:Angel/estilos3.css
         font-size: 60px;
     }
     .header{
