@@ -11,16 +11,6 @@ img{
     border-radius: 20px;
     box-shadow: 0px 0px 0px 4px rgb(75, 209, 97);
 }
-.header h1{
-    padding: 100px;
-    font-size: 100px;
-    height: 220px;
-}
-
-.header p{
-    text-align: center;
-    font-size: 40px;
-}
 .menu{
     width: 900px;
     margin: 0 auto;
@@ -56,9 +46,6 @@ body{
     background-color: var(--principal);
     text-align: center;
 }
-#principal{
-    float: right;
-}
 #depredadores{
     background-color: var(--secundario);
 }
@@ -79,4 +66,55 @@ body{
     --principal: #b1f03c;
     --texto: #474a41;
     --secundario: #879e5c;
+}
+@media screen and (max-width: 480px){
+    
+*{
+    box-sizing: border-box;
+}
+
+  header{
+    width: 100px;
+    font-size: 0.54em;
+  }
+  body{
+    width: 480px;
+  }
+  body p{
+    font-size: 0.6em;
+  }
+  body h2{
+    font-size: 0.8em;
+  }
+  h3{
+    font-size: 0.6em;
+  }
+  h4{
+    font-size: 0.7em;
+  }
+  #aniaereo{
+    font-size: 1em;
+  }
+  #header{
+    font-size: 10px;
+    text-align: center;
+  }
+  nav{
+    float: left ;
+  }
+  nav ul li{
+    margin-left: 40px;
+    float:left;
+  }
+  .menu{
+    width: 480px;
+  }
+  img{
+    height: 200px;
+    width: 200px;
+  }
+  .list{
+    width: 411px;
+    flex-direction: column;
+  }
 }
