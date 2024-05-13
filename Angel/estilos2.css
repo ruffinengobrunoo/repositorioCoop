@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    color: #474A41;
+}
+html{
+    scroll-behavior: smooth;
+}
+#menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    position:fixed;
+    top:0;
+    padding: 20px;
+    font-size: 30px;
+    background: #74d337;
+    box-shadow: 0px 0px 0px 3px #B1F03C;
+}
+nav a{
+    color:#fff;
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: rgb(1, 68, 1);
+}
+header{
+    padding-top: 85px;
+    background-color: #B1F03C;
+    display: flex;
+    justify-content: center;
+}
+.header h1{
+    padding: 100px;
+    font-size: 100px;
+    height: 220px;
+}
+
+.header p{
+    text-align: center;
+    font-size: 40px;
+}
+.Seccion{
+    justify-content: left;
+    background-color: #879E5C;
+}
+.Seccion h1{
+    text-align: center;
+    font-size: 50px;
+}
+.Seccion p{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+img{
+    margin-bottom: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px 4px rgb(180, 162, 129);
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+#contenido{
+    display: flex;
+    justify-content: left;
+    justify-content: space-evenly;
+}
+#contenido h2{
+    text-align: center;
+}
+#contenido img{
+    box-shadow: 0px 0px 0px 5px #74884f;
+}
+#Caja{
+    width: 400px;
+}
+.depre{
+    background-color: wheat;
+}
+.Presas{
+    padding-top: 50px;
+    background-color: wheat;
+}
+.Presas #presa{
+    box-shadow: 0px -4px 0px -2px rgba(0,0,0,0.3);
+}
+.Domesticos{
+    padding-top: 50px;
+    background-color: wheat;
+}
+.Domesticos #domesticos{
+    box-shadow: 0px -4px 0px -2px rgba(0,0,0,0.3);
+}
+h1{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 40px;
+}
+.derecha{
+    display: flex;
+    justify-content: left;
+    justify-content: space-evenly;
+    width: 900px;
+}
+.derecha img{
+    height: 200px;
+    margin-left: 90px;
+}
+.derecha p{
+    font-size: 20px;
+}
+.derecha #info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 15px;
+    box-shadow: 3px 2px 3px 0px rgba(0,0,0,0.3);
+}
+#info2{
+    margin-top: 10px;
+    margin-left: 15px;
+    box-shadow: 3px -2px 3px 0px rgba(0,0,0,0.3);
+}
+.izquierda{
+    display: flex;
+    justify-content: end;
+    margin-block: 25px;
+
+    margin-right: 90px;
+}
+.izquierda img{
+    height: 200px;
+}
+.izquierda #info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+    box-shadow: -3px -2px 3px 0px rgba(0,0,0,0.3);
+}
+.izquierda h2{
+    display: flex;
+    justify-content: end;
+}
+.izquierda p{
+    margin-left: 10px;
+    width: 650px;
+    font-size: 20px;
+}
