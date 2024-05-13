@@ -5,6 +5,7 @@
 }
 body{
     font-family: "Roboto", sans-serif;
+    color: #474A41;
 }
 html{
     scroll-behavior: smooth;
@@ -26,7 +27,7 @@ nav a{
 
 }
 nav a:hover{
-    color: orange;
+    color: rgb(1, 68, 1);
 }
 header{
     padding-top: 85px;
@@ -60,6 +61,7 @@ header{
 img{
     margin-bottom: 15px;
     border-radius: 20px;
+    box-shadow: 0px 0px 0px 4px rgb(180, 162, 129);
 }
 h2{
     font-size: 30px;
@@ -79,24 +81,76 @@ h2{
 #Caja{
     width: 400px;
 }
+.depre{
+    background-color: wheat;
+}
+.Presas{
+    padding-top: 50px;
+    background-color: wheat;
+}
+.Presas #presa{
+    box-shadow: 0px -4px 0px -2px rgba(0,0,0,0.3);
+}
+.Domesticos{
+    padding-top: 50px;
+    background-color: wheat;
+}
+.Domesticos #domesticos{
+    box-shadow: 0px -4px 0px -2px rgba(0,0,0,0.3);
+}
 h1{
+    padding-top: 15px;
     text-align: center;
     font-size: 40px;
 }
-#depredadores{
+.derecha{
     display: flex;
     justify-content: left;
     justify-content: space-evenly;
     width: 900px;
 }
-#depredadores img{
+.derecha img{
     height: 200px;
-    margin-left: 15px;
-}
-.derecha{
-    margin-top: 15px;
-    margin-left: 15px;
+    margin-left: 90px;
 }
 .derecha p{
+    font-size: 20px;
+}
+.derecha #info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 15px;
+    box-shadow: 3px 2px 3px 0px rgba(0,0,0,0.3);
+}
+#info2{
+    margin-top: 10px;
+    margin-left: 15px;
+    box-shadow: 3px -2px 3px 0px rgba(0,0,0,0.3);
+}
+.izquierda{
+    display: flex;
+    justify-content: end;
+    margin-block: 25px;
+
+    margin-right: 90px;
+}
+.izquierda img{
+    height: 200px;
+}
+.izquierda #info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+    box-shadow: -3px -2px 3px 0px rgba(0,0,0,0.3);
+}
+.izquierda h2{
+    display: flex;
+    justify-content: end;
+}
+.izquierda p{
+    margin-left: 10px;
+    width: 650px;
     font-size: 20px;
 }
