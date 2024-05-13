@@ -5,18 +5,19 @@
 }
 body{
     font-family: roboto;
-color: var(--texto);
+    color: var(--texto);
+    background-color: var(--principal);
+    text-align: center;
 }
 .list{
     display: flex;
     flex-direction: row;
     justify-content: center;
+
 }
-.presas p{
-padding-top : 200px;
-}
+
 :root{
     --principal: #b1f03c;
-    --texto: color: #474a41;
-    --secundario: #879e5c
+    --texto: #474a41;
+    --secundario: #879e5c;
 }
