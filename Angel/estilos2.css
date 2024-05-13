@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;   
 }
 body{
     font-family: "Roboto", sans-serif;
@@ -132,7 +132,6 @@ h1{
     display: flex;
     justify-content: end;
     margin-block: 25px;
-
     margin-right: 90px;
 }
 .izquierda img{
@@ -143,7 +142,7 @@ h1{
     flex-direction: column;
     margin-top: 10px;
     margin-right: 20px;
-    box-shadow: -3px -2px 3px 0px rgba(0,0,0,0.3);
+    box-shadow: 3px -2px 3px 0px rgba(0,0,0,0.3);
 }
 .izquierda h2{
     display: flex;
@@ -153,4 +152,68 @@ h1{
     margin-left: 10px;
     width: 650px;
     font-size: 20px;
+}
+@media screen and (max-width: 480px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction:column;
+    }
+    #menu{
+        display: flex;
+        flex-direction: row;
+        font-size: 25px;
+    }
+    h1{
+        font-size: 60px;
+    }
+    .header{
+        margin-bottom: 20px;
+    }
+    #menu{
+        width: 430px;
+    }
+    .derecha #info, #info2{
+        width: 300px;
+    }
+    .izquierda #info , #info2{
+        width: 300px;
+    }
+    .izquierda, #info{
+        margin-left: 15px;
+    }
+   
+    .derecha img{
+        width: 300px;
+        margin-left: 15px;
+    }
+    .izquierda img{
+        width: 300px;
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+    #contenido{
+        text-align: center;
+    }
+    #info p{
+        width: 250px;
+    }
+    #info2 p{
+        width: 250px;
+    }
+    .izquierda p{
+        margin: 0;
+    }
+    .derecha ,.izquierda{
+        margin-left: 40px;
+    }
+    #menu2 img{
+        margin-left: 33px;
+        width: 350px;
+    }
+    p{
+        margin: 10px;
+    }
 }
