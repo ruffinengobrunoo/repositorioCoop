@@ -5,6 +5,15 @@
 }
 body{
     font-family: roboto;
+color: var(--texto);
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.presas p{
+padding-top : 200px;
 }
 :root{
     --principal: #b1f03c;
